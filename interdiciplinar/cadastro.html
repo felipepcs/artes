@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>INTERDISCIPLINAR</title>
+<style>
+body {
+background-color: #87CEFA
+}
+</style>
+</head>
+<center><h2 style = "font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif">Cadastro de usuários</h2>
+<img src="usunovo.png" alt="some text" width=150 height=150>
+<form action="cadusu.php" method="post">
+    <label for="nome"><p style = "font-family: Comic Sans MS, Comic Sans, cursive">Nome:</p></label>
+    <input type="nome" name="nome" id="nome" required>
+    <br><label for="endereco"><p style = "font-family: Comic Sans MS, Comic Sans, cursive">Endereço:</p></label>
+    <input type="endereco" name="endereco" id="endereco" placeholder=" Ex: Rua Itajubá, Floresta" required>
+    <br><label for="cep"><p style = "font-family: Comic Sans MS, Comic Sans, cursive">CEP:</p></label>
+    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3"
+    <br><label for="dt_nasc"><p style = "font-family: Comic Sans MS, Comic Sans, cursive">Data de nascimento:</p></label>
+    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+    <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+    <input type="text" name="ano" size="4" maxlength="4" value="aaaa"
+    <br><label for="telefone"><p style = "font-family: Comic Sans MS, Comic Sans, cursive">Telefone:</p></label>
+    <input type="text" name="telefone" size="4" maxlength="4"> - <input type="text" name="telefone2" size="4" maxlength="4">
+    <br><label for="email"><p style = "font-family: Comic Sans MS, Comic Sans, cursive">E-mail:</p></label>
+    <input type="email" name="email" id="email" placeholder=" Ex: Cadastro@gmail.com.br" required>
+    <br><label for="senha"><p style = "font-family: Comic Sans MS, Comic Sans, cursive">Senha:</p></label>
+    <input type="password" name="senha" id="senha" required><br><br>
+    <br><button type= submit style="background: #32CD32; border-radius: 6px; padding: 15px; 
+    cursor: pointer; color: #fff; border: none; font-size: 15px;"><a href="home.html">Sign Up</button></a>
+</form>
+</body>
+</html>
