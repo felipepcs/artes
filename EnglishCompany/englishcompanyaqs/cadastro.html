@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login and Register</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <form action="usuario.php" method="POST">
+            <div class="cont">
+                <div class="form sign-in">
+
+                    <h2>Register</h2>
+                    <label>
+                        <label for="nome">Name
+                    <input type="text" name="nome" id="nome" placeholder="Put your name" required>
+                    </label>
+                    <label>
+                        <label for="email">Email
+                    <input type="email" name="email" id="email" placeholder="Ex. joao@gmail.com" required>
+                    </label>
+                    <label>
+                        <label for="senha">Password
+                    <input type="password" name="senha" id="senha" placeholder="Put your Password" required>
+                    </label>
+
+
+                    <button class="submit" type="submit" name="register" value="register">Register</button>
+        </form>
+        <div class="social-media">
+            <ul>
+                <li><img src="images/facebook.png"></li>
+                <li><img src="images/twitter.png"></li>
+                <li><img src="images/linkedin.png"></li>
+                <li><img src="images/instagram.png"></li>
+            </ul>
+
+        </div>
+        </div>
+    </center>
+    <script type="text/javascript" src="script.js"></script>
+</body>
